@@ -4,5 +4,5 @@ class ForTwitter(unittest.TestCase):
 		print "hello testing travis"
 	def leaving(self):
 		print "Exiting Travis"
-if __name__ == "__main__";
+if __name__ == "__main__"
 	unittest.main()
