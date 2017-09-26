@@ -7,7 +7,7 @@ python:
   - 3.6
 # command to install dependencies
 install:
-	- pip install unittest2
+    - pip install unittest2
 #command to run tests
 script: python mod1_test.py
 branches:
