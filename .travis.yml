@@ -10,7 +10,7 @@ install:
 #command to run tests
 script: 
      
-       - py.test test1.py
+       - python -m pytest -v test1.py
 branches:
   only:
     - master
