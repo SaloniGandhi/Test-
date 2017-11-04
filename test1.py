@@ -3,6 +3,6 @@ import unittest
 
 class test_client_auth(unittest.TestCase):
 	def verify():
-		self.assertEqual(consumer_key,"fJriwU9JcNHkzAJYJ7PoI7ftH")
+		self.assertEqual(consumer_key,"fJriwU9JcNHkzAJYJ7PoI7ftH","error")
 		
 	
