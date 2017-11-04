@@ -5,12 +5,13 @@ python:
   - 3.3
   # command to install dependencies
 install:
+    - pip install pytest
     - pip install unittest2
     - pip install tweepy
 #command to run tests
 script: 
      
-       - python -m pytest test1.py
+       - py.test test1.py
 branches:
   only:
     - master
