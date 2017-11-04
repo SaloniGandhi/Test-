@@ -10,6 +10,8 @@ install:
     - pip install unittest2
 #command to run tests
 script: python mod1_test.py
+        python twitter_client.py
+        python test1.py
 branches:
   only:
     - master
