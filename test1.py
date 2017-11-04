@@ -1,4 +1,4 @@
-from twitter_client.py import get_twitter_auth
+from twitter_client import get_twitter_auth
 import unittest
 
 class test_client_auth(unittest.TestCase):
