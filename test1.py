@@ -3,7 +3,7 @@ import unittest
 
 class test_client_auth(unittest.TestCase):
 	def verify():
-		self.assertEqual(consumer_key,"fJriwU9JcNHkzAJYJ7PoI7ftH","error")
+		self.assertIsNot(consumer_key,"fJriwU9JcNHkzAJYJ7PoI7ftH","error")
 		
 if __name__ == "__main__":
 	unittest.main()
