@@ -11,9 +11,9 @@ install:
 #command to run tests
 script: 
        -python -m pytest -v test1.py
-       -python -m pytest -v test1.py
-       -python -m pytest -v test1.py
-       -python -m pytest -v test1.py
+       -python -m pytest -v test2.py
+       -python -m pytest -v test3.py
+       -python -m pytest -v test4.py
 branches:
   only:
     - master
