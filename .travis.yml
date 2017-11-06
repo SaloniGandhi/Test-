@@ -1,16 +1,19 @@
 language: python
 python:
- 
+  - 3
   - 2.7
   # command to install dependencies
 install:
     - pip install pytest
     - pip install unittest2
     - pip install tweepy
+    - pip install folium==0.2.1
 #command to run tests
 script: 
-     
-       - python -m pytest -v test1.py
+       -python -m pytest -v test1.py
+       -python -m pytest -v test1.py
+       -python -m pytest -v test1.py
+       -python -m pytest -v test1.py
 branches:
   only:
     - master
