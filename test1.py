@@ -1,14 +1,24 @@
-from twitter_client import get_twitter_auth
-import unittest
+#from  twitter_client import*
+#from twitter_client import get_twitter_client
 
-class test_client_auth(unittest.TestCase):
-	def setUp(self):
-		print ('hello testing travis')
-	def verify():
-		self.assertIsNot(consumer_key,"fJriwU9JcNHkzAJYJ7PoI7ftH","error")
-	def leaving(self):
-		print ('Exiting Travis')
+from twitter_client import twitter_client
+import unittest 
+import pytest
+
+
+class Test_client_auth(unittest.TestCase):
+	#@staticmethod	
+	def testverify(self):
+		t = twitter_client()
+		print ("hello")
+		self.assertEqual(t.consumer_key, "fJriwU9JcNHkzAJYJ7PoI7ftH")
 		
-if __name__ == "__main__":
+		
+if __name__=='__main__':
+	
 	unittest.main()
-	print('hello')
+	
+	
+	
+	
+	
